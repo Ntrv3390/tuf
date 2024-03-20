@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { getOutput } from "@/utils/output";
 import { getBatchedOutput } from "@/utils/output";
 
-const page = () => {
+const Page = () => {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -97,4 +97,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

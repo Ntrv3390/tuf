@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const page = () => {
+const Page = () => {
   const [data, setData] = useState({
     username: "",
     lang: "c++",
@@ -124,4 +124,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
